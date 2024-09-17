@@ -11,3 +11,15 @@
 ## macOS: Use Homebrew: brew install git
 ## Linux: Use package manager: sudo apt-get install git (Debian/Ubuntu) or sudo yum install git (Fedora/CentOS)
 ## Check Git Version: git --version
+
+## Branches in Git are like different paths you can take in a maze. You can create a new path to work on a specific feature or fix a bug without affecting the main path. This helps keep your code organized and prevents conflicts.
+
+## Creating Branches: (i) Terminal: git branch new-branch-name (ii) GitHub Interface: Click on the "Branches" tab, then click "New branch".
+
+## Renaming Branches: The branch itself remains the same in terms of the code and history it tracks, but the reference (the name by which you refer to it) is updated. (i) Terminal: git branch -m new-name old-name (ii) GitHub Interface: Click on the "Branches" tab, then click on the three dots next to the branch name, and select "Rename branch".
+
+## Deleting Branches: When you delete a branch, you’re removing this pointer, making that line of development no longer accessible through the branch name. (i) Terminal: git branch -d branch-name (ii) GitHub Interface: Click on the "Branches" tab, then click on the three dots next to the branch name, and select "Delete branch".
+
+## Checking out a branch in Git is like switching to a different version of your project. It lets you work on a specific part of your code without messing up the rest.
+
+## Merging in Git is like combining two different versions of your project into one. It helps you keep your code up-to-date and organized.
