@@ -5,7 +5,7 @@ Go to your GitHub account and create a new repository. This will be the remote l
 
 2. Set Up Git Locally (if not already done):
 
-git config --global user.name "Your Name"
+- Item 1 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
 
 These two lines configure Git with your name and email address for future commits.
