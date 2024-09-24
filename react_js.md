@@ -1,8 +1,8 @@
 ## Reactjs-popup-npm
 
-<details><summary>This is a comment</summary>npm install reactjs-popup --save</details>
+<details><summary>You need to install the reactjs-popup (using npm)</summary>npm install reactjs-popup --save</details>
 
-<details><summary>This is a comment</summary>yarn add reactjs-popup</details>
+<details><summary>or install using yarn</summary>yarn add reactjs-popup</details>
 
 
 ```javascript
