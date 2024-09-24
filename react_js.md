@@ -1,6 +1,6 @@
 <details><summary>This is a comment</summary>npm install reactjs-popup --save</details>
 
-```reactjs
+```javascript
 import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
