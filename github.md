@@ -39,3 +39,46 @@ Replace "URL" with the actual URL of your remote repository on GitHub. You can f
 - git push -u origin main
 
 This command pushes your local changes (including the commit message) to the "main" branch of your remote repository on GitHub. The -u flag sets the "origin" remote as the default for future pushes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Add Folders to .gitignore:
+
+1. Open (or create) the .gitignore file in the root of your repository.
+
+Add the paths to the folders you want to ignore:
+
+
+assets/images/
+assets/video/
+This will prevent Git from tracking future changes in these folders.
+
+Remove Folders from Git Tracking:
+
+Run the following commands to remove the folders from the Git index (tracking), but keep them in your local directory:
+
+
+- git rm -r --cached assets/images
+- git rm -r --cached assets/video
+Commit the Changes:
+
+Commit the changes to stop tracking these folders on GitHub:
+
+
+git commit -m "Remove assets/images and assets/video from tracking"
+Push to GitHub:
+
+Push the changes to update the repository on GitHub:
+
+
+- git push origin main
