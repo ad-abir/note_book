@@ -63,7 +63,7 @@ assets/images/
 assets/video/
 This will prevent Git from tracking future changes in these folders.
 
-Remove Folders from Git Tracking:
+2. Remove Folders from Git Tracking:
 
 Run the following commands to remove the folders from the Git index (tracking), but keep them in your local directory:
 
@@ -72,13 +72,13 @@ Run the following commands to remove the folders from the Git index (tracking), 
 - git rm -r --cached assets/video
 Commit the Changes:
 
-Commit the changes to stop tracking these folders on GitHub:
+3. Commit the changes to stop tracking these folders on GitHub:
 
 
 git commit -m "Remove assets/images and assets/video from tracking"
 Push to GitHub:
 
-Push the changes to update the repository on GitHub:
+4. Push the changes to update the repository on GitHub:
 
 
 - git push origin main
