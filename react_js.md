@@ -71,3 +71,12 @@ type User = InferType<typeof userSchema>;
   createdOn: Date
 }*/
 ```
+
+
+## React Countup
+
+<details><summary>or install using yarn</summary>yarn add react-countup</details>
+
+<details><summary>or install using npm</summary>npm install react-countup</details>
+
+
