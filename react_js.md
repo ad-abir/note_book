@@ -80,3 +80,14 @@ type User = InferType<typeof userSchema>;
 <details><summary>or install using npm</summary>npm install react-countup</details>
 
 
+#### Usage
+
+```javascript
+import CountUp from 'react-countup';
+```
+
+#### Simple example
+
+```javascript
+<CountUp end={100} />
+```
