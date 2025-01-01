@@ -8,6 +8,9 @@ int main() {
     return 0;
 }
 ```
+
+## Summation of Two Numbers in C
+
 ```c
 #include <stdio.h>
 
