@@ -82,3 +82,35 @@ float multiply(float x, float y){
     return result;
 }
 ```
+
+## Division of Two Numbers (using function) in C
+
+```c
+#include <stdio.h>
+float divide(float x, float y);
+
+int main() {
+    
+    float a, b, div;
+    
+    printf("Enter your first value: ");
+    scanf("%f", &a);
+    
+    printf("Enter your second value: ");
+    scanf("%f", &b);
+    
+    div = divide(a, b);
+    
+    printf("Division of %f & %f is %.2f (in 2 dec. place)", a, b, div);
+
+    return 0;
+}
+
+float divide(float x, float y){
+    float result;
+    
+    result = x / y;
+    
+    return result;
+}
+```
