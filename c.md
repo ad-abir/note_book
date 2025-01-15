@@ -123,17 +123,14 @@ float divide(float x, float y){
 int main() {
     int dividend, divisor, remainder;
 
-    // Input the dividend and divisor
     printf("Enter the dividend: ");
     scanf("%d", &dividend);
 
     printf("Enter the divisor: ");
     scanf("%d", &divisor);
 
-    // Calculate remainder
     remainder = dividend % divisor;
 
-    // Display the result
     printf("The remainder when %d is divided by %d is: %d\n", dividend, divisor, remainder);
 
     return 0;
