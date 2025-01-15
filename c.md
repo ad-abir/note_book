@@ -115,6 +115,8 @@ float divide(float x, float y){
 }
 ```
 
+## Remainder of a number in C
+
 ```c
 #include <stdio.h>
 
